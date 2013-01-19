@@ -68,7 +68,7 @@ function cathode(canvas,unit,modifier)
 		unit = punit
 	end
 
-	love.graphics.setCanvas(actual_canvas)
+	if actual_canvas then love.graphics.setCanvas(actual_canvas) end
 	return cathode
 
 end
