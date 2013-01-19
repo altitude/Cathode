@@ -4,7 +4,7 @@ Cathode ~ A löve2d graphic library
 
 canvas : a simple löve canvas
 unit : pixel size used for CRT display
-modifier : table used to destroy the screen : { amount of broken lines (between 0 and 1), size of broken lines, amount of vertical destroying (between 0 and 1), size of vertical destroying}
+modifier : table used to destroy the screen
 
 Returns a canvas, unit times bigger than the canvas you gave to the function.
 
